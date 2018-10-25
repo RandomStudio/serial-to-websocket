@@ -1,0 +1,18 @@
+{
+  "name": "serial-to-websocket",
+  "version": "1.0.0",
+  "description": "Takes incoming serial messages and sends them out over websocket",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Random Studio",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "event-emitter-es6": "^1.1.5",
+    "http": "0.0.0",
+    "serialport": "^7.0.2",
+    "socket.io": "^2.1.1"
+  }
+}
